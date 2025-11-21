@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #dfffe8;
+    background: #000;
+    overflow-x: hidden;
+}
+
+.login-body, .panel-body {
+    background: linear-gradient(180deg, #001, #001a1a, #000822);
+    height: 100vh;
+}
+
+.logo-img {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0 0 15px #00ffbb);
+}
+
+.logo-center {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.login-box {
+    width: 330px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(4px);
+    border-radius: 14px;
+    text-align: center;
+    border: 1px solid rgba(0,255,100,0.1);
+    box-shadow: 0 0 25px rgba(0,255,160,0.1);
+}
+
+.title, .panel-title {
+    color: #58ffd0;
+    text-shadow: 0 0 13px #00ffc8;
+}
+
+input {
+    width: 80%;
+    padding: 12px;
+    margin-top: 14px;
+    border-radius: 30px;
+    border: none;
+    background: rgba(255,255,255,0.07);
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: #b2ffe4;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #00ff9f, #00d0ff);
+    border: none;
+    color: #001;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0,255,200,0.25);
+}
+
+header {
+    padding: 20px;
+}
+
+.move-right {
+    position: relative;
+    animation: moveLogo 1.2s forwards;
+}
+
+@keyframes moveLogo {
+    from { left: 0; }
+    to { left: 75%; }
+}
+
+.services {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.item {
+    margin: 10px auto;
+    width: 300px;
+    background: rgba(255,255,255,0.05);
+    padding: 12px;
+    border-radius: 10px;
+    border-left: 3px solid #00ff9f;
+}
+
+.form-box {
+    width: 340px;
+    background: rgba(255,255,255,0.04);
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+}
+
+.inp {
+    width: 90%;
+    margin: 10px 0;
+}
+
+.sent {
+    margin-top: 20px;
+    color: #9effd5;
+    background: rgba(0,255,130,0.13);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: #ff7878;
+    margin-top: 8px;
+}
+
+
+
+
